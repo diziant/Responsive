@@ -244,8 +244,7 @@ p{
 }
 
 .post__photo{
-    min-width: 200px;
-    max-width: 100%;
+    width: 100%;
 }
 
 .article__date{
@@ -318,15 +317,17 @@ p{
 
 
 .article__first{
-    margin-top: 40px;
+    margin-top: 30px;
+    margin-right: 2%;
     float: left;
-    width: 576px;
+    width: 48%;
 }
 
 .article__second{
-    margin-top: 40px;
+    margin-top: 30px;
+    margin-left: 2%;
     float: right;
-    width: 576px;
+    width: 48%;
 }
 
 .article__text-inner{

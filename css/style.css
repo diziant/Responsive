@@ -46,7 +46,6 @@ body{
 }
 
 .header__nav{
-    margin-top: 15px;
     width: 300px;
 }
 
@@ -348,6 +347,7 @@ p{
 .header-flex{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .menu-flex{

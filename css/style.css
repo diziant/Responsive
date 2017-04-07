@@ -29,7 +29,6 @@ body{
 }
 
 .header__logo{
-    float: left;
     margin: 0;
     font-weight: 400;
     font-size: 24px;
@@ -47,20 +46,14 @@ body{
 }
 
 .header__nav{
-    float: right;
     margin-top: 15px;
+    width: 300px;
 }
 
 .menu{
     list-style: none;
     padding: 0;
     margin: 0;
-    font-size: 16px;
-}
-
-.menu__item{
-    display: inline-block;
-    margin-left: 35px;
 }
 
 .menu__item:first-child{
@@ -91,14 +84,10 @@ body{
 }
 
 .banner__logo{
-    display:inline-block;
-    vertical-align: middle;
     margin-right: 45px;
 }
 
 .banner__inner{
-    display:inline-block;
-    vertical-align: middle;
     width: 450px;
 }
 
@@ -126,18 +115,15 @@ body{
 }
 
 .about__text{
-    float: left;
     width: 590px;
 }
 
 p{
     line-height: 35px;
     margin: 0 0 10px;
-
 }
 
 .statistics{
-    float: right;
     width: 585px;
 }
 
@@ -186,13 +172,8 @@ p{
     background-color: #d7d93f;
 }
 
-.projects{
-    font-size: 0;
-}
-
 .project{
-    display: inline-block;
-    margin: 0 15px 15px 0;
+    margin: 0 17px 17px 0;
     position: relative;
     width: 282px
 }
@@ -362,4 +343,30 @@ p{
 
 .footer__element:last-child{
     float: right;
+}
+
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects-flex{
+    display: flex;
+    flex-wrap: wrap;
 }

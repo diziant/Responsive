@@ -270,13 +270,16 @@ p{
 }
 
 .article__footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.article__header{
+    margin-bottom: 15px;
     font-size: 14px;
     display: flex;
     justify-content: space-between;
-}
-
-.article__footer_margin{
-    margin-bottom: 15px;
 }
 
 .icon{

@@ -128,31 +128,31 @@ p{
     margin: 0 0 10px;
 }
 
-.statistics{
+.about__stats{
     width: 585px;
     margin-left: 12px;
 }
 
-.statistics__item{
+.about__stats-item{
     margin-bottom: 25px;
 }
 
-.statistics__item:last-child{
+.about__stats-item:last-child{
     margin: 0;
 }
 
-.statistics__skill{
+.progress__name{
     font-weight: bold;
-    margin-bottom: 15px;
 }
 
-.statistics__status{
+.progress__bar{
+    margin-top: 15px;
     background-color: #eee;
     border-radius: 5px;
     overflow: hidden;
 }
 
-.statistics__status::after{
+.progress__bar::after{
     content: "";
     display: block;
     width: 100%;
@@ -167,17 +167,17 @@ p{
     120% { transform: translate(0, 0); }
 }
 
-.statistics__status_blue::after{
+.progress__bar_blue::after{
     transform: translate(-10%, 0);
     background-color: #0091be;
 }
 
-.statistics__status_green::after{
+.progress__bar_green::after{
     transform: translate(-15%, 0);
     background-color: #40c95d;
 }
 
-.statistics__status_yellow::after{
+.progress__bar_yellow::after{
     transform: translate(-5%, 0);
     background-color: #d7d93f;
 }

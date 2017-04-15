@@ -141,18 +141,18 @@ p{
     margin: 0;
 }
 
-.skill{
+.statistics__skill{
     font-weight: bold;
     margin-bottom: 15px;
 }
 
-.skill-status{
+.statistics__status{
     background-color: #eee;
     border-radius: 5px;
     overflow: hidden;
 }
 
-.skill-status::after{
+.statistics__status::after{
     content: "";
     display: block;
     width: 100%;
@@ -167,17 +167,17 @@ p{
     120% { transform: translate(0, 0); }
 }
 
-.skill-status_blue::after{
+.statistics__status_blue::after{
     transform: translate(-10%, 0);
     background-color: #0091be;
 }
 
-.skill-status_green::after{
+.statistics__status_green::after{
     transform: translate(-15%, 0);
     background-color: #40c95d;
 }
 
-.skill-status_yellow::after{
+.statistics__status_yellow::after{
     transform: translate(-5%, 0);
     background-color: #d7d93f;
 }

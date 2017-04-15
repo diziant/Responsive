@@ -137,18 +137,22 @@ p{
     margin-bottom: 25px;
 }
 
+.statistics__item:last-child{
+    margin: 0;
+}
+
 .skill{
     font-weight: bold;
     margin-bottom: 15px;
 }
 
-.skill__status{
+.skill-status{
     background-color: #eee;
     border-radius: 5px;
     overflow: hidden;
 }
 
-.skill__status::after{
+.skill-status::after{
     content: "";
     display: block;
     width: 100%;
@@ -163,17 +167,17 @@ p{
     120% { transform: translate(0, 0); }
 }
 
-.skill__status_blue::after{
+.skill-status_blue::after{
     transform: translate(-10%, 0);
     background-color: #0091be;
 }
 
-.skill__status_green::after{
+.skill-status_green::after{
     transform: translate(-15%, 0);
     background-color: #40c95d;
 }
 
-.skill__status_yellow::after{
+.skill-status_yellow::after{
     transform: translate(-5%, 0);
     background-color: #d7d93f;
 }

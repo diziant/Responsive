@@ -1,7 +1,8 @@
 
+
 body{
     margin: 0;
-    font-family:  'Roboto', Arial, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
     font-size: 16px;
 }
 
@@ -17,8 +18,9 @@ body{
 
 .container{
     margin: 0 auto;
-    width: 1180px;
+    width: 1200px;
     padding: 0 10px;
+    box-sizing: border-box;
 }
 
 *:focus{
@@ -51,6 +53,9 @@ body{
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
 }
 
 .menu__item{
@@ -90,12 +95,10 @@ body{
 
 .banner__inner{
     width: 450px;
-}
-
-.banner__inner-item{
     color: #fff;
     font-size: 46px;
     font-style: italic;
+    text-align: left;
 }
 
 .section{
@@ -179,6 +182,7 @@ p{
     margin: 0 17px 17px 0;
     position: relative;
     width: 282px;
+    text-align: center;
 }
 
 .project:nth-child(4n+4){
@@ -211,11 +215,12 @@ p{
     transition: opacity .5s cubic-bezier(1, 0.6, 0, 0.46);
 }
 
-.project__layer-item{
+.project__name{
     color: #fff;
     position: absolute;
+    width: 90%;
+    padding: 5%;
     top: 50%;
-    left: 50%;
     transform: translate(-50%, -50%);
 }
 
@@ -354,12 +359,6 @@ p{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.header__nav-menu{
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
 }
 
 .banner__container{

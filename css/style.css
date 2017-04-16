@@ -463,13 +463,16 @@ p{
 .article__author-icon{
     width: 15px;
     height: 15px;
-    background: url("../images/icon-author.png") no-repeat;
+    background: url("../images/icon-author.svg") no-repeat;
+    background-size: contain;
 }
 
 .article__tags-icon{
     width: 15px;
     height: 15px;
-    background: url("../images/icon-tags.png") no-repeat;
+    background: url("../images/icon-tags.svg") no-repeat;
+    background-size: contain;
+    transform: scale(-1, 1);
 }
 
 .article__tag{

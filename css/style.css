@@ -56,7 +56,7 @@ body{
 
 .container{
     margin: 0 auto;
-    width: 1200px;
+    width: 75.805433%;
     padding: 0 1rem;
     box-sizing: border-box;
 }
@@ -80,9 +80,8 @@ body{
 }
 
 .header__nav{
-    width: 35%;
+    width: 26%;
     display: flex;
-
 }
 
 .menu__button{
@@ -123,7 +122,7 @@ body{
     padding-top: 8.3rem;
     background-color: #0091be;
     text-align: center;
-    min-width: 1200px;
+    min-width: 75.805433%;
 }
 
 .banner__container{
@@ -138,7 +137,7 @@ body{
 }
 
 .banner__inner{
-    width: 450px;
+    width: 37.5%;
     color: #fff;
     font-size: 4.6rem;
     font-style: italic;
@@ -149,7 +148,7 @@ body{
     border-bottom: .1rem solid #eeeeee;
     box-shadow: inset 0px -10px 16px 0px #eeeeee;
     padding: 5rem 0;
-    min-width: 1200px;
+    min-width: 75.805433%;
 }
 
 .section__header{
@@ -173,7 +172,7 @@ body{
 }
 
 .about__text{
-    width: 570px;
+    width: 48.98%;
     margin-right: 1.2rem;
 }
 
@@ -183,7 +182,7 @@ p{
 }
 
 .about__stats{
-    width: 585px;
+    width: 48.8%;
     margin-left: 1.2rem;
 }
 
@@ -239,7 +238,7 @@ p{
 .project{
     margin: 0 1.7rem 1.7rem 0;
     position: relative;
-    width: 282px;
+    width: 23.92%;
     text-align: center;
 }
 
@@ -300,6 +299,7 @@ p{
 
 .post__photo{
     width: 100%;
+    height: auto;
     display: block;
 }
 
@@ -314,7 +314,7 @@ p{
 }
 
 .article__date{
-    width: 120px;
+    width: 10.169492%;
     text-align: center;
 }
 
@@ -332,7 +332,7 @@ p{
 }
 
 .article__text{
-    width: 1000px;
+    width: 84.745763%;
 }
 
 .article__footer{
@@ -397,13 +397,11 @@ p{
 }
 
 .article__date_s{
-    width: 75px;
-    margin-right: 1.2rem;
+    width: 12.941612669%;
 }
 
 .article__text_s{
-    width: 480px;
-    margin-left: 1.2rem;
+    width: 82.8210243824%;
 }
 
 .article_right-part{
@@ -413,7 +411,7 @@ p{
 }
 
 .map{
-    min-width: 1200px;
+    min-width: 75.805433%;
 }
 
 .footer{

@@ -22,24 +22,24 @@
     font-style: italic;
 }
 
+html{
+    font-size: 62.5%;
+}
+
 a:focus{
     outline: 3px solid #fad027;
     outline-offset: .65rem;
 }
 
-html{
-    font-size: 62.5%;
-}
-
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1020px){
     html{
         font-size: 50%;
     }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 840px) {
     html {
-        font-size: 37.5%;
+        font-size: 40%;
     }
 }
 
@@ -68,16 +68,11 @@ body{
 
 .container{
     margin: 0 auto;
-    width: 75.805433%;
+    min-width: 200px;
+    max-width: 1200px;
     padding: 0 1rem;
     box-sizing: border-box;
     position: relative;
-}
-
-@media screen and (max-width: 1200px){
-    .container{
-        width: auto;
-    }
 }
 
 .header__container{
@@ -113,6 +108,7 @@ body{
     top: 20%;
     right: 0.5rem;
     border: none;
+    font-size: 0;
 }
 
 @media screen and (max-width: 1200px){
@@ -323,29 +319,26 @@ p{
 }
 
 .project{
-    margin: 0 1.440678% 1.7rem 0;
+    margin: 1.7rem 1.440678% 0 0;
     position: relative;
     width: 23.92%;
     text-align: center;
 }
 
-.project:nth-last-child(1){
-    margin-bottom: 0;
-    margin-right: 0;
+.project:hover .project__overlay {
+    opacity: 1;
 }
 
-@media screen and (min-width: 768px){
-    .project:nth-last-child(2){
-        margin-bottom: 0;
-    }
+.project:nth-last-child(1){
+    margin-right: 0;
 }
 
 @media screen and (min-width: 1200px){
     .project:nth-child(4n+4){
         margin-right: 0;
     }
-    .project:nth-last-child(3){
-        margin-bottom: 0;
+    .project:nth-child(-n+4){
+        margin-top: 0;
     }
 }
 
@@ -356,6 +349,9 @@ p{
     .project:nth-child(3n+3){
         margin-right: 0;
     }
+    .project:nth-child(-n+3){
+        margin-top: 0;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -364,6 +360,9 @@ p{
     }
     .project:nth-child(even){
         margin-right: 0;
+    }
+    .project:nth-child(-n+2){
+        margin-top: 0;
     }
 }
 
@@ -375,17 +374,12 @@ p{
 
 .project__overlay{
     opacity: 0;
-    font-size: 1.6rem;
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     background-color: #0091be;
     transition: opacity .5s cubic-bezier(1, 0.6, 0, 0.46);
-}
-
-.project__overlay:hover{
-    opacity: 1;
 }
 
 .project__name{
@@ -397,10 +391,9 @@ p{
     transform: translate(-50%, -50%);
 }
 
-.clear:after{
-    content: "";
-    clear: both;
-    display: block;
+.posts{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .post{
@@ -449,6 +442,7 @@ p{
 .article__footer{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     font-size: 1.4rem;
 }
 
@@ -490,7 +484,7 @@ p{
     width: 48%;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 680px){
     .article_inner{
         width: 100%;
     }
@@ -499,12 +493,10 @@ p{
 .article_left-part{
     margin-top: 4.5rem;
     margin-right: 2%;
-    float: left;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 680px){
     .article_left-part{
-        float: none;
         margin-right: 0;
     }
 }
@@ -512,14 +504,9 @@ p{
 .article__header{
     margin-bottom: 1.5rem;
     font-size: 1.4rem;
-}
-
-.article__author{
-    float: left;
-}
-
-.article__tags{
-    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .article__title_s{
@@ -537,12 +524,10 @@ p{
 .article_right-part{
     margin-top: 4.5rem;
     margin-left: 2%;
-    float: right;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 680px){
     .article_right-part{
-        float: none;
         margin-left: 0;
     }
 }

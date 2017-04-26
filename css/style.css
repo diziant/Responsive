@@ -99,16 +99,12 @@ body{
 
 .menu__button{
     display: none;
-    width: 4rem;
-    height: 3rem;
-    background: url("../images/menu.svg") no-repeat;
-    background-size: contain;
     padding: 0;
-    position: absolute;
-    top: 20%;
-    right: 0.5rem;
     border: none;
-    font-size: 0;
+    font-size: 40px;
+    line-height: 45px;
+    background: #fff;
+    color: #0091be;
 }
 
 @media screen and (max-width: 1200px){
@@ -118,7 +114,6 @@ body{
 }
 
 .menu__list{
-
     list-style: none;
     padding: 0;
     margin: 0;
@@ -251,6 +246,12 @@ body{
 p{
     line-height: 3.5rem;
     margin: 0 0 1rem;
+}
+
+@media screen and (max-width: 1020px){
+    p{
+        line-height: 2.5rem;
+    }
 }
 
 .about__stats{

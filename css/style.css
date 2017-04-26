@@ -101,8 +101,13 @@ body{
     display: none;
     padding: 0;
     border: none;
-    font-size: 40px;
+    font-size: 0;
     background: #fff;
+}
+
+.menu__button::before{
+    content:"≡";
+    font-size: 40px;
     color: #0091be;
 }
 

@@ -183,7 +183,7 @@ body{
 @media screen and (max-width: 768px){
     .banner__container{
         flex-direction: column;
-        padding: 7rem 0 7rem;
+        padding: 10rem 0 10rem;
     }
 }
 

@@ -33,13 +33,13 @@ a:focus{
 
 @media screen and (max-width: 1020px){
     html{
-        font-size: 50%;
+        font-size: 60%;
     }
 }
 
 @media screen and (max-width: 840px) {
     html {
-        font-size: 40%;
+        font-size: 50%;
     }
 }
 
@@ -64,6 +64,13 @@ body{
     box-sizing: border-box;
     padding: 1.5rem 0;
     border-bottom: .5rem solid #fad027;
+}
+
+@media screen and (max-width: 1200px){
+    .header{
+        position: static;
+        z-index: auto;
+    }
 }
 
 .container{
@@ -105,9 +112,9 @@ body{
     background: #fff;
 }
 
-.menu__button::before{
+.menu__button:before{
     content:"≡";
-    font-size: 40px;
+    font-size: 35px;
     color: #0091be;
 }
 
@@ -160,6 +167,12 @@ body{
     min-width: 75.805433%;
 }
 
+@media screen and (max-width: 1200px){
+    .banner{
+        padding-top: 0;
+    }
+}
+
 .banner__container{
     padding: 6.2rem 0 4.5rem;
     display: flex;
@@ -180,6 +193,7 @@ body{
 @media screen and (max-width: 768px){
     .banner__logo{
         margin-right: 0;
+        width: 150px;
     }
 }
 
@@ -192,7 +206,7 @@ body{
 
 @media screen and (max-width: 1486px){
     .banner__inner{
-        font-size: 3.5rem;
+        font-size: 4rem;
     }
 }
 
@@ -249,7 +263,7 @@ body{
 
 p{
     line-height: 3.5rem;
-    margin: 0 0 1rem;
+    margin: 0 0 2rem;
 }
 
 @media screen and (max-width: 1020px){
@@ -457,6 +471,10 @@ p{
     margin-right: .5rem;
 }
 
+.article__author{
+    margin-bottom: 0.5rem;
+}
+
 .icon{
     display: inline-block;
     vertical-align: middle;
@@ -496,7 +514,7 @@ p{
 }
 
 .article_left-part{
-    margin-top: 4.5rem;
+    margin-top: 5rem;
     margin-right: 2%;
 }
 
@@ -527,7 +545,7 @@ p{
 }
 
 .article_right-part{
-    margin-top: 4.5rem;
+    margin-top: 5rem;
     margin-left: 2%;
 }
 

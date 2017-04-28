@@ -183,6 +183,7 @@ body{
 @media screen and (max-width: 768px){
     .banner__container{
         flex-direction: column;
+        padding: 7rem 0 7rem;
     }
 }
 
@@ -502,6 +503,12 @@ p{
     padding: .2rem 1rem;
     background-color: #0091be;
     color: #ffffff;
+}
+
+@media screen and (max-width: 1200px){
+    .article__tag{
+        padding: 0 1rem;
+    }
 }
 
 .blog__column{

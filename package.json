@@ -1,0 +1,25 @@
+{
+  "name": "test1",
+  "version": "1.0.0",
+  "description": "Задание 2",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp-sass": "^3.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diziant/Responsive.git"
+  },
+  "author": "egor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diziant/Responsive/issues"
+  },
+  "homepage": "https://github.com/diziant/Responsive#readme"
+}

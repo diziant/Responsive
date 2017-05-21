@@ -327,19 +327,19 @@ p:last-child{
 .progress__bar_blue::after{
     transform: translate(-10%, 0);
     background-color: #0091be;
-    animation: skill1 1s cubic-bezier(0.4, 0, 1, 1);;
+    animation: skill1 2s cubic-bezier(0.4, 0, 1, 1);;
 }
 
 .progress__bar_green::after{
     transform: translate(-15%, 0);
     background-color: #40c95d;
-    animation: skill2 2s cubic-bezier(0.4, 0, 1, 1);;
+    animation: skill2 3s cubic-bezier(0.4, 0, 1, 1);;
 }
 
 .progress__bar_yellow::after{
     transform: translate(-5%, 0);
     background-color: #d7d93f;
-    animation: skill3 3s cubic-bezier(0.4, 0, 1, 1);;
+    animation: skill3 4s cubic-bezier(0.4, 0, 1, 1);;
 }
 
 @keyframes skill1 {

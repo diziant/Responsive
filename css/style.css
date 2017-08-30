@@ -657,6 +657,14 @@ p:last-child{
     transform: rotate(-45deg);
 }
 
+.menu-close:hover{
+	-o-transform: rotate(1turn);
+	-ms-transform: rotate(1turn);
+	-moz-transform: rotate(1turn);
+	-webkit-transform: rotate(1turn);
+	transform: rotate(1turn);
+}
+
 .mobile-menu-list {
     width: 100%;
     line-height: 3rem;

@@ -655,6 +655,9 @@ p:last-child{
     font-size: 6rem;
     color: #ffffff;
     transform: rotate(-45deg);
+	-moz-transition: all 1s 0.1s ease-in;
+	-o-transition: all 1s 0.1s ease-in;
+	-webkit-transition: all 1s 0.1s ease-in;
 }
 
 .menu-close:hover{

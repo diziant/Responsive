@@ -647,12 +647,12 @@ p:last-child{
 
 .menu-close {
     position: absolute;
-    right: 1rem;
-    top: 0;
+    right: 2rem;
+    top: 1rem;
     z-index: 9999;
     display: none;
     cursor: pointer;
-    font-size: 6rem;
+    font-size: 4.5rem;
     color: #ffffff;
     transform: rotate(-45deg);
 	-moz-transition: all 1s 0.1s ease-in;

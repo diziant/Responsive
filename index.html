@@ -5,7 +5,6 @@
     <title>Responsive UX</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" rel="stylesheet">
-	<link href="jquery.mCustomScrollbar.css" rel="stylesheet">
 </head>
 <body>
     <div class="page">
@@ -292,17 +291,17 @@
     </div>
     <script type="text/javascript" src="js/jQuery.js" async></script>
     <script type="text/javascript" src="js/scripts.js" async></script>  
-	<script src="jquery.mCustomScrollbar.concat.min.js"></script> 
+	<script type="text/javascript" src="js/jQuery.scrollSpeed.js" async></script>
 	<script>
-	(function($){
-	$(window).load(function(){
+		$(function() {  
 
-	$("body").mCustomScrollbar({
-	theme:"dark-thin"
-	});
-
-	});
-	})(jQuery);
+		// Default
+		jQuery.scrollSpeed(100, 800);
+		
+		// Custom Easing
+		jQuery.scrollSpeed(100, 800, 'easeOutCubic');
+		
+		});
 	</script>
 </body>
 </html>

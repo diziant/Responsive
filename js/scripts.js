@@ -12,14 +12,14 @@
 		$(".menu-close").click(function (){
 			
 			body.removeClass("fullscreen-menu");
-			body.addClass("modal-open");
+			body.removeClass("modal-open");
 			
 		});
 		
 		$(".mobile-menu__link").click(function (){
 			
 			body.removeClass("fullscreen-menu");
-			body.addClass("modal-open");
+			body.removeClass("modal-open");
 			
 		});
 })

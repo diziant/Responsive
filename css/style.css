@@ -688,3 +688,6 @@ p:last-child{
     font-size: 2rem;
     color: #0091be;
 }
+.modal-open {
+    overflow: hidden;
+}

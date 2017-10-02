@@ -5,18 +5,21 @@
 		$(".menu__button").click(function (){
 			
 			body.addClass("fullscreen-menu");
+			body.addClass("modal-open");
 			
 		});
 		
 		$(".menu-close").click(function (){
 			
 			body.removeClass("fullscreen-menu");
+			body.addClass("modal-open");
 			
 		});
 		
 		$(".mobile-menu__link").click(function (){
 			
 			body.removeClass("fullscreen-menu");
+			body.addClass("modal-open");
 			
 		});
 })

@@ -106,6 +106,7 @@ body{
 }
 
 .menu__button{
+	cursor: pointer;
     display: none;
     padding: 0;
     border: none;

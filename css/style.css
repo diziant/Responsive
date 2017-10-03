@@ -649,28 +649,28 @@ p:last-child{
 
 .menu-close {
 	position: absolute;
-	right: 32px;
-	top: 32px;
+	right: 12px;
+	top: 26px;
 	width: 32px;
-	height: 32px;
+	height: 28px;
 	-moz-transition: all 1s 0.1s ease-in;
 	-o-transition: all 1s 0.1s ease-in;
 	-webkit-transition: all 1s 0.1s ease-in;
 }
 
 .menu-close:hover{
-	-o-transform: rotate(360deg);
-	-ms-transform: rotate(360deg);
-	-moz-transform: rotate(360deg);
-	-webkit-transform: rotate(360deg);
-	transform: rotate(360deg);
+	-o-transform: rotate(540deg);
+	-ms-transform: rotate(540deg);
+	-moz-transform: rotate(540deg);
+	-webkit-transform: rotate(540deg);
+	transform: rotate(540deg);
 }
 
 .menu-close:before, .menu-close:after {
 	position: absolute;
 	left: 15px;
 	content: ' ';
-	height: 33px;
+	height: 28px;
 	width: 3px;
 	background-color: #0091be;
 }

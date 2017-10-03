@@ -22,4 +22,5 @@
 			body.removeClass("modal-open");
 			
 		});
+
 })

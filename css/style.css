@@ -1,4 +1,4 @@
-@font-face{
+﻿@font-face{
     font-family: 'Roboto';
     src: url('../fonts/Roboto-Regular.woff') format('woff'),
     url('../fonts/Roboto-Regular.woff2') format('woff2');
@@ -733,5 +733,5 @@ p:last-child{
 }
 .scrollup__link:hover {
     background-color:#e74c3c;
-	transition: background-color .3s cubic-bezier(1, 0.6, 0, 0.46);
+    transition: background-color .3s cubic-bezier(1, 0.6, 0, 0.46);
 }

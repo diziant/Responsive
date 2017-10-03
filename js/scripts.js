@@ -1,5 +1,4 @@
 ﻿$(document).ready(function () {
-		
 
 		body = $("body");
 		$(".menu__button").click(function (){
@@ -23,4 +22,4 @@
 			
 		});
 
-})
+});

@@ -705,7 +705,7 @@ p:last-child{
     overflow: hidden;
 }
 
-.scrollup {
+.scrollup__link {
     position:fixed;
     right:25px;
     bottom:25px;
@@ -719,7 +719,7 @@ p:last-child{
     -moz-border-radius:8px;
     border-radius:8px
 }
-.scrollup:before{
+.scrollup__link:before{
     position:absolute;
 	content:"";
     top:50%;
@@ -731,7 +731,7 @@ p:last-child{
     border:8px solid transparent;
     border-bottom-color:#ffffff
 }
-.scrollup:hover {
+.scrollup__link:hover {
     background-color:#e74c3c;
 	transition: background-color .3s cubic-bezier(1, 0.6, 0, 0.46);
 }

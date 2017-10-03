@@ -2,13 +2,13 @@ $(document).ready(function () {
 
     $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
-            $('.scrollup').fadeIn();
+            $('.scrollup__link').fadeIn();
         } else {
-            $('.scrollup').fadeOut();
+            $('.scrollup__link').fadeOut();
         }
     });
 
-    $('.scrollup').click(function () {
+    $('.scrollup__link').click(function () {
         $("html, body").animate({
             scrollTop: 0
         }, 600);

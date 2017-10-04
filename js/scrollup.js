@@ -11,7 +11,7 @@ $(document).ready(function () {
     $('.scrollup__link').click(function () {
         $("html, body").animate({
             scrollTop: 0
-        }, 600);
+        }, 1200);
         return false;
     });
 

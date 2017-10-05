@@ -22,19 +22,23 @@
 			
 		});
 	
-		$('.link-about').click(function(){
+	
+	
+		$('.link-scroll:nth-child(1)').click(function(){
 			$('html, body').animate({scrollTop:$('#about').position().top - 80}, 1200);
 		});
 		
-		$('.link-projects').click(function(){
+		$('.link-scroll:nth-child(2)').click(function(){
 			$('html, body').animate({scrollTop:$('#projects').position().top - 80}, 1200);
 		});
 		
-		$('.link-blog').click(function(){
+		$('.link-scroll:nth-child(3)').click(function(){
 			$('html, body').animate({scrollTop:$('#blog').position().top - 80}, 1200);
 		});
 		
-		$('.link-contacts').click(function(){
+		$('.link-scroll:nth-child(4)').click(function(){
 			$('html, body').animate({scrollTop:$('#contacts').position().top - 80}, 1200);
 		});
+		
+		/**Переделать с помощью одной функции и вызывом по onclick в html**/
 });

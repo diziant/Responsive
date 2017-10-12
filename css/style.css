@@ -649,14 +649,40 @@ p:last-child{
 }
 
 .menu-close {
+    padding: 0;
+	top: 22px;
+    right: 10px;
+	border: none;
+    cursor: pointer;
+    background-color: transparent;
 	position: absolute;
-	right: 12px;
-	top: 26px;
-	width: 32px;
-	height: 28px;
+    width: 32px;
+    height: 32px;
 	-moz-transition: all 1s 0.1s ease-in;
-	-o-transition: all 1s 0.1s ease-in;
-	-webkit-transition: all 1s 0.1s ease-in;
+    -o-transition: all 1s 0.1s ease-in;
+    -webkit-transition: all 1s 0.1s ease-in;
+}
+
+.menu-close:before{
+	width: 2px;
+    height: 32px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+}
+
+.menu-close:after{
+	width: 32px;
+    height: 2px;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg);
+}
+
+.menu-close:before, .menu-close:after {
+	content: "";
+    position: absolute;
+	background-color: #0091be;
 }
 
 .menu-close:hover{
@@ -667,21 +693,9 @@ p:last-child{
 	transform: rotate(540deg);
 }
 
-.menu-close:before, .menu-close:after {
-	position: absolute;
-	left: 15px;
-	content: ' ';
-	height: 28px;
-	width: 3px;
-	background-color: #0091be;
-}
-
-.menu-close:before {
-	transform: rotate(45deg);
-}
-
-.menu-close:after {
-	transform: rotate(-45deg);
+.menu-close .menu-close__label {
+    left: -99999px;
+    position: absolute;
 }
 
 .mobile-menu-list {
